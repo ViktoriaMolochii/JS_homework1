@@ -1,0 +1,173 @@
+.box1{
+    width: 1000px;
+    background-color: silver;
+    min-height: 300px;
+    margin-left:300px;
+}
+.box_texting{
+    margin-left:50px ;
+    padding-top: 15px;
+}
+.box2{
+    display: flex;
+}
+.editBTN{
+    margin-top: 20px;
+    margin-left:700px;
+    width: 100px;
+    height: 30px;
+    background-color: yellow;
+}
+.styleBTN{
+    margin-top: 20px;
+    margin-left:20px;
+    width: 100px;
+    height: 30px;
+    background-color: skyblue;
+}
+.box3{
+    width: 1000px;
+    background-color: silver;
+    height: 300px;
+    margin-left:300px;
+    margin-top: 15px;
+}
+.box_area{
+    top: 50px;
+    width: 700px;
+    height: 170px;
+    margin-left: 100px;
+    padding-top: 30px;
+    display:none;
+}
+.area{
+    width: 100%;
+    height: 170px;
+}
+.decoration{
+    margin-left: 50px;
+    padding-top: 10px;
+    width: 700px;
+    height: 250px;
+    display: none;
+}
+.box_colors{
+    width: 243px;
+    height: 242px;
+    margin-left: 500px;
+    margin-top: -220px;
+    border: 2px solid #000;
+    display:none;
+    flex-wrap: wrap;  
+}
+.box_color{
+    width: 79px;
+    height: 79px;
+    border: 1px solid #000;
+}
+.box_colors1{
+    width: 243px;
+    height: 242px;
+    margin-left: 500px;
+    margin-top: -220px;
+    border: 2px solid #000;
+    display:none;
+    flex-wrap: wrap;  
+}
+.box_color1{
+    width: 79px;
+    height: 79px;
+    border: 1px solid #000;
+}
+.list_table{
+    width: 1000px;
+    height: 300px;
+    margin-left:300px;
+    background-color: silver;
+    display: none;
+}
+.RadioBT, h2{
+    margin-left: 30px;
+}
+.table_box{
+    width: 1000px;
+    height: 500px;
+    background-color: silver;
+    display: none;
+}
+.p1{
+    margin-left: 30px;
+    display: inline-block;
+}
+h3{
+    margin-left: 30px
+}
+.tablee2{
+    margin-left: 20px;
+    width: 800px;
+    height: 30px;
+}
+.tablee1, .tablee11{
+    margin-left: 30px;
+    width: 800px;
+    height: 30px;
+}
+.tablee3{
+    margin-left: 15px;
+    width: 800px;
+    height: 30px;
+}
+.tablee4{
+    height: 30px;
+    width: 120px;
+}
+.TypeOfBorder, .ColorOfBorder{
+    height: 30px;
+    width: 120px;
+    margin-left: 40px;
+}
+.pp{
+    margin-left: 70px;
+    display: inline-block;
+}
+.btn_table{
+    border-radius: 6px;
+    margin-left: 30px;
+    margin-top: 40px;
+    background-color: rgb(9, 146, 9);
+    width: 110px;
+    height: 40px;
+}
+.list_box{
+    width: 1000px;
+    height: 100px;
+    background-color: silver;
+    display: none;
+}
+.p2{
+    margin-top: 30px;
+    margin-left: 30px;
+    display: inline-block;
+}
+.TypeOfMarks{
+    width: 800px;
+    height: 30px;
+    border-radius: 3px;
+    border-color: silver;
+    margin-left: 5px;
+}
+.btn_list{
+    border-radius: 6px;
+    margin-left: 30px;
+    margin-top: 40px;
+    background-color: rgb(9, 146, 9);
+    width: 110px;
+    height: 40px;
+}
+.count{
+    width: 800px;
+    height: 30px;
+    border-radius: 3px;
+    border-color: silver;
+    margin-left: 40px;
+}

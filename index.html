@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="big_block">
+        <!-- текст -->
+        <div class="box1">
+            <div class="box_texting">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+        <!-- кнопки -->
+        <div class="box2">
+            <button class="editBTN" name="button1">edit</button>
+            <button class="styleBTN" name="button2">style</button>
+        </div>
+        <!-- редагування тексту внутрішньо -->
+        <div class="box3">
+            <div class="box_area">
+                <textarea name="text" id="" cols="30" rows="10" class="area"></textarea>
+                <button name='add' class="add">add</button>
+                <button name="save" class="save">save</button>
+            </div>
+            <!-- редагування тексту зовнішньо -->
+            <div class="decoration">
+                <h4>Font Size</h4>
+                <div class="allFontSize">
+                    <input type="radio" name="radio" value="12px">
+                    <label>12px</label>
+                    <input type="radio" name="radio" value="14px">
+                    <label>14px</label>
+                    <input type="radio" name="radio" value="16px">
+                    <label>16px</label>
+                    <input type="radio" name="radio" value="18px">
+                    <label>18px</label>
+                    <input type="radio" name="radio" value="20px">
+                    <label>20px</label>
+                </div>
+                <h4>Font Family</h4>
+                <select name="font" class="font">
+                    <option value="sans-serif">sans-serif</option>
+                    <option value="cursive">cursive</option>
+                    <option value="fantasy">fantasy</option>
+                    <option value="monospace">monospace</option>
+                    <option value="choose option" selected>choose option</option>
+                </select>
+                <br>
+                <br>
+                <button class="button3" name="button3">Color of text</button>
+                <button class="button4" name="button4">Background color</button>
+                <br>
+                <br>
+                <div class="style">
+                    <input type="checkbox" name="checking" class="check1" value="bold">
+                    <label>Bold text</label>
+                    <input type="checkbox" name="checking" class="check2" value="italic">
+                    <label>Cursive text</label>
+
+                </div>
+
+                <div class="box_colors">
+                    <div class="box_color" style="background:red"></div>
+                    <div class="box_color" style="background:blue"></div>
+                    <div class="box_color" style="background:green"></div>
+                    <div class="box_color" style="background:pink"></div>
+                    <div class="box_color" style="background:yellow"></div>
+                    <div class="box_color" style="background:violet"></div>
+                    <div class="box_color" style="background:orange"></div>
+                    <div class="box_color" style="background:aqua"></div>
+                    <div class="box_color" style="background:purple"></div>
+                </div>
+                <div class="box_colors1">
+                    <div class="box_color1" style="background:red"></div>
+                    <div class="box_color1" style="background:blue"></div>
+                    <div class="box_color1" style="background:green"></div>
+                    <div class="box_color1" style="background:pink"></div>
+                    <div class="box_color1" style="background:yellow"></div>
+                    <div class="box_color1" style="background:violet"></div>
+                    <div class="box_color1" style="background:orange"></div>
+                    <div class="box_color1" style="background:aqua"></div>
+                    <div class="box_color1" style="background:purple"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- додавання списку або таблиці -->
+    <div class="list_table ">
+        <h2>Choose what you want :</h2>
+        <div class="RadioBT">
+            <input type="radio" name="radio" value="table" class="Table_Radio">
+            <label>Table</label>
+            <input type="radio" name="radio" value="list" class="List_Radio">
+            <label>List</label>
+        </div>
+        <div class="table_box">
+            <p class="p1">Count TR: </p>
+            <input type="text" placeholder=" Count TR: " class="tablee1">
+            <p class="p1">Count TD: </p>
+            <input type="text" placeholder=" Count TD: " class="tablee11">
+            <h3>Add style to your table :</h3>
+            <p class="p1">Width of TD: </p>
+            <input type="text" placeholder=" Width of TD: " class="tablee2">
+            <p class="p1">Height of TD:</p>
+            <input type="text" placeholder=" Height of TD: " class="tablee3">
+            <p class="p1">Width of border:</p>
+            <input type="text" placeholder=" Width: " class="tablee4">
+            <p class="pp">Type of border:</p>
+            <select name="TypeOfBorder" class="TypeOfBorder">
+                <option value="solid" selected>solid</option>
+                <option value="dotted">dotted</option>
+                <option value="dashed">dashed</option>
+            </select>
+            <p class="pp">Color of border:</p>
+            <select name="ColorOfBorder" class="ColorOfBorder">
+                <option value="black" selected>black</option>
+                <option value="red">red</option>
+                <option value="blue">blue</option>
+                <option value="green">green</option>
+            </select>
+            <button class="btn_table">Create table</button>
+        </div>
+
+        <div class="list_box">
+            <p class="p2">Count Li: </p>
+            <input type="text" placeholder=" Count Li: " class="count">
+            <p class="p2">Type of marks: </p>
+            <select name="TypeOfMarks" class="TypeOfMarks">
+                <option value="circle" selected>circle</option>
+                <option value="disc">disc</option>
+                <option value="square">square</option>
+            </select>
+            <button class="btn_list">Create list</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
